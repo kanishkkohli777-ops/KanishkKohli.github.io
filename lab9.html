@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+
+<style>
+
+    .subheading{
+        width:600px;
+        font-size:9px;
+    }
+
+    body{
+        background-image: url(https://tse1.mm.bing.net/th/id/OIP.Ur3cfop8B_snUZ-Mv9eqnAHaDt?rs=1&pid=ImgDetMain&o=7&rm=3);
+ background: linear-gradient(135deg, #74ABE2, #5563DE);
+    }
+
+    .heading{
+
+        width:250px;
+        margin:auto;
+    }
+
+    .container{
+
+        border:2px solid rgb(255, 255, 255);
+    
+        width:30%;
+        height:90%;
+        background-color:white;
+        margin:auto;
+        border-radius:15px;
+
+        
+    }
+    .myname{
+             /* width:150px; */
+    }
+    .myemail{
+
+        /* margin:30px; */
+    }
+    #email1{
+
+        width:1000px;
+    }
+    .textfield:hover{
+        background-color:rgb(73, 197, 201);
+        border:2px solid red;
+    }
+
+    .buttons{
+
+        width:200px;
+        margin:auto;
+        
+    }
+
+    textarea,input{
+         /* margin-top: 5px; */
+  /* padding: 8px; */
+  border: 2px solid #908888;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+    
+    h{
+         font-weight: bold;
+    }
+</style>
+<body>
+    <div class="heading">
+    <h><B>USER IDENTIFICATION FORM</B></h>
+   
+ <hr>
+    </div>
+
+ <div class="subheading">
+ <h1>ALL THE DETAILS ARE MANDATORY FOR SUBMITTING THE FORM.</h1>
+<hr>
+ </div>
+
+
+<FORM>
+<div class="container">
+
+<label for="my name"></label>
+ <h>
+NAME OF THE STUDENT:
+ </h>  <br>-<input type="text" name="myname" placeholder="Enter your name" class="myname">
+
+   <br><BR>
+    <label for="myemail" id="email1">
+        
+        <h>
+
+EMAIL ADDRESS:-
+        </h></label>
+        <br>
+   <input type="email" CLASS="myemail" placeholder="Enter your email address">
+
+<br><BR>
+<h>
+PHONE NUMBER:-
+</h><br>
+<input type="number" placeholder="Enter your  number">
+
+
+<BR><BR>
+<h>
+  DATE:-
+</h><br>
+<input type="date" name="mydate">
+
+ 
+<BR><BR>
+<h>
+ HOME ADDRESS:-
+</h><br>
+   <INPUT TYPE="text number" placeholder="Enter your home address">
+
+<br><BR>
+    <h>
+ENTER YOUR HOBBIES:-
+    </h>
+
+<DIV>
+
+
+    <div class="textarea">
+
+<textarea name="my text" class="textfield" COLS="50" ROWS="5" placeholder="Tell something about your hobbies"></textarea>
+    </div>
+ 
+</DIV>
+ <br>
+
+ <LABEL FOR="mygender"><h>
+GENDER:-
+ </h>
+</LABEL>
+<DIV><br>
+ MALE<input type="radio" name="mygender">
+
+FEMALE<input type="radio" name="mygender">
+</DIV>
+
+<br>
+<label for="age">AGE>=18</label>
+<input type="checkbox" name="age">
+<BR><BR>
+<B>YOUR FAVOURITE CAR:-</B><select name="car" id="car">
+    <option  value="swift">swift</option>
+    <option  value="kk">kk</option>
+    <option  value="lamborgini>lamborgini</option>
+   
+    <option  value="hayabusa">hayabusa</option>
+    <option  value="bmw">BMW</option>
+    <option  value="ALTO">ALTO</option>
+    <option  value="G-WAGON">G-WAGON</option>
+    <option  value="THAR">THAR</option>
+    <option  value="SCORPIO">SCORPIO</option>
+    <option  value="VAN">VAN</option>
+     <option  value=""NO OPTION">OTHER</option>
+</select>
+<BR><br>
+<div class="buttons">
+
+<INPUT TYPE="SUBMIT" VALUE="SUBMIT">
+    <input type="reset" value="Reset Form">
+
+
+
+</div>
+
+</div>
+
+
+
+</FORM>
+
+
+</body>
+</html>
